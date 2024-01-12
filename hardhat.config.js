@@ -32,6 +32,6 @@ module.exports = {
     }
   },
   etherscan: {
-    apiKey: "7MPNXRTPSJR1VMEN26ZDRU68C78B66DFB4", // Your Etherscan API key
+    apiKey: process.env.PloygonMubai_APT_KEY// Your Etherscan API key
   },
 };
